@@ -7,6 +7,8 @@ categories: jekyll update
 Today, we are releasing rawtx, a mobile lightning network wallet for Bitcoin.
 For now, it's available on Android, with iOS version coming soon.
 
+You can download it from [Android Play Store](https://play.google.com/store/apps/details?id=com.rtxwallet).
+
 We have produced 11 short videos (<1 min) showing all the different features on the app, you can
 see the playlist on youtube: [https://www.youtube.com/playlist?list=PL6M7JUIlnUqzfZQ4hxdFu2k912cKxWMqK](https://www.youtube.com/playlist?list=PL6M7JUIlnUqzfZQ4hxdFu2k912cKxWMqK).
 
