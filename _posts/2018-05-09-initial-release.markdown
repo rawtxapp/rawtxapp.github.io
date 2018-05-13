@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing rawtx, a mobile lightning wallet!"
+title:  "Introducing rawtx, a mobile lightning network wallet!"
 date:   2018-05-09 09:01:01 -0700
 categories: jekyll update
 ---
