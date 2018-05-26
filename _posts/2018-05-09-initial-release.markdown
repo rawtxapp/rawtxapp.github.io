@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing rawtx, a mobile lightning network wallet!"
 date:   2018-05-09 09:01:01 -0700
-categories: jekyll update
+categories: rawtx update
 ---
 Today, we are releasing rawtx, a mobile lightning network wallet for Bitcoin.
 For now, it's available on Android, with iOS version coming soon.
@@ -81,34 +81,10 @@ that functionality, we will never ask for camera permissions.
 
 ### Will it be open source ?
 The major portion of this app is already open-source [lnd](https://github.com/lightningnetwork/lnd).
-Lightning labs developers have done an amazing work on the lightning daemon, we've simply adapted
-it for Android and put a UI built in react-native on top of it.
+Lightning labs developers have done an amazing work on the lightning daemon, we've adapted
+it for mobile and put a UI built in react-native on top of it.
 
-As for the app, not sure yet if it's going to be open-source, while we do want people to play around
-with it and build stuff on top, we also want to avoid [situations](https://github.com/spesmilo/electrum-docs/blob/master/decompiling_guide.md)
-like [this](https://www.reddit.com/r/Bitcoin/comments/8i5wck/decompiling_the_electrum_pro_stealware/).
-
-Though no matter what we decide to do with the app, we will release the exact patches to lnd and a way
-to prove that it's that specific library that's included in the mobile apps we ship.
-
-If you're curious about the technology behind the app, here they are:
-* interact with lightning network thanks to **lnd**,
-* UI built in **react-native**,
-
-We tried keeping 3rd party libraries to a minimum and these are our exact dependencies
-in our current build.
-```
-    "babel-plugin-transform-remove-console": "^6.9.0",
-    "flow-bin": "^0.68.0",
-    "react": "^16.3.1",
-    "react-mixin": "^4.0.0",
-    "react-native": "^0.55.2",
-    "react-native-button": "^2.3.0",
-    "react-native-qrcode": "^0.2.6",
-    "react-native-simple-radio-button": "^2.7.1",
-    "react-navigation": "^1.5.9",
-    "react-timer-mixin": "^0.13.3"
-```
+The app will be open-sourced at the same time of our iOS app release.
 
 &nbsp;
 
