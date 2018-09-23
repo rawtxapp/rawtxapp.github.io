@@ -17,7 +17,7 @@ title: rawtx - lightning network wallet
 email: support@rawtx.com
 description: >- # this means to ignore newlines until "baseurl:"
   rawtx is a mobile Bitcoin lightning network wallet app. It supports blockchain
-  and lightning operations. Currently released on Android, iOS is coming soon.
+  and lightning operations. Available for Android or iOS.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rawtx.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rawtxapp
