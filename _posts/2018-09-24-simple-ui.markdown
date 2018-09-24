@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Simple UI and lnd 0.5"
+date:   2018-09-24 09:01:01 -0700
+categories: rawtx update
+---
+Based on feedback from our users, we've simplified the UI of the wallet.
+In addition to UI, we've also updated lnd to the latest 0.5 version. Currently available
+on Play Store or App store.
+
+Some notes about the UI improvements:
+- we don't expect the lightning network stats to be useful, so that was completely removed,
+- added a basic settings screen,
+- syncing block was removed and is now inside Settings and it displays a percentage instead
+of block height,
+- close the wallet moved inside Settings,
+- intro screen button are moved into a card-like view with smooth transitions,
+- savings/checking accounts renamed into blockchain/lightning accounts,
+- send/receive functionality is extracted into a common button for blockchain and
+lightning,
+    - the send functionality will determine which one to use based on what was scanned,
+    - receive functionality gives possibility of generating blockchain address or lightning invoice.
+- many smaller improvements.
+
+This is the first iteration towards a simple UI, there are more changes coming soon. There will also be a more advanced UI mode.
+
+The update to [lnd 0.5](https://github.com/lightningnetwork/lnd/releases/tag/v0.5-beta) brings a lot of bug fixes and improvements such as reduced
+cpu/memory/disk usage (for example: neutrino doesn't save filters to disk anymore).
+
+If you run into problems, feel free to create an issue on Github or contact us.
