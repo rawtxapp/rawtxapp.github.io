@@ -181,6 +181,14 @@ into user-supported model and in the process creating higher quality content esp
 for niche interests. It can also potentially create very different kinds of
 applications.
 
+### lnd 0.6
+
+In addition to micro, the new version of wallet integrates the lnd 0.6 including
+latest [neutrino changes](https://github.com/lightningnetwork/lnd/pull/2978).
+Thanks to lightning labs and all lnd contributors, there are many improvements
+and bugfixes which should make the wallet more stable. It also comes with a
+static backup method which will be supported soon.
+
 ### What's next ?
 
 One thing that would interesting is to allow native micro apps. On
