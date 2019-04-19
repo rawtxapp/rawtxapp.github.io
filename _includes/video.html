@@ -1,0 +1,28 @@
+<style type="text/css" media="screen">
+  .video-container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  figure .video {
+    max-width: 100%;
+  }
+</style>
+
+<div class="video-container">
+  <figure>
+    <video
+      autoplay="autoplay"
+      loop="loop"
+      muted
+      width="400"
+      class="video"
+      controls
+    >
+      <source src="{{ include.urlmp4 }}" type="video/mp4" />
+      <source src="{{ include.urlwebm }}" type="video/webm" />
+    </video>
+    <figcaption>{{ include.description }}</figcaption>
+  </figure>
+</div>

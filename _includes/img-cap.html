@@ -1,0 +1,19 @@
+<style type="text/css" media="screen">
+  .image-container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  figure.image {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+</style>
+
+<div class="image-container">
+  <figure class="image">
+    <img src="{{ include.url }}" alt="{{ include.description }}" />
+    <figcaption>{{ include.description }}</figcaption>
+  </figure>
+</div>
