@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
   }
+
   .container .screenshot {
     height: auto;
     width: auto;
@@ -12,14 +13,17 @@
     display: block;
     margin: 20px 0px;
   }
+
   .container .button {
     max-width: 200px;
     display: block;
     margin: auto;
   }
+
   .container .android {
     margin: auto;
   }
+
   .rounded-border {
     border: 2px solid black;
     border-radius: 20px;
@@ -29,11 +33,9 @@
 <div class="container">
   <div class="android">
     <img class="screenshot" src="{{'/assets/screenshot-with-micro.png' | absolute_url}}" />
-    <a href='https://play.google.com/store/apps/details?id=com.rtxwallet&utm_source=rawtxwebsite&utm_campaign=homepage'>
-      <img alt='Get it on Google Play' class="button" src='{{'/assets/download-android.png' | absolute_url }}'/>
-    </a>
     <a href='https://github.com/rawtxapp/rawtxapp'>
-      <img alt='Get it on Github' class="button rounded-border" src='{{'/assets/github_logo.png' | absolute_url}}' style="margin:auto; margin-top:10px; width: auto; max-height: 60px"/>
+      <img alt='Get it on Github' class="button rounded-border" src='{{'/assets/github_logo.png' | absolute_url}}'
+        style="margin:auto; margin-top:10px; width: auto; max-height: 60px" />
     </a>
   </div>
 </div>
